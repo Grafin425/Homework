@@ -45,15 +45,15 @@ ul {
     color: #ffffff;
     background-color: #7e0019;
     height: 87px;
-    padding-top: 30px;
     font-weight: 500;
+    padding-top: 15px;
 }
 
 .menu {
-    text-align: center;
-    align-items: center;
-    height: 59px;
     display: flex;
+    text-align: center;
+    align-items: baseline;
+    height: 59px;
     justify-content: space-between;
 }
 
@@ -154,6 +154,7 @@ ul {
 /* main_menu */
 
 .main_menu {
+    border-bottom: 1px solid #88888841;
     display: flex;
     flex-direction: row;
     text-transform: uppercase;
