@@ -189,3 +189,17 @@ ul {
 .main_menu__item:hover {
     color: gray;
 }
+
+.club_banner_button_wrapper {
+    font-weight: 700;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+    text-transform: uppercase;
+    width: 217px;
+    font-size: 19px;
+    height: 46px;
+    background-color: #7e0019;
+    border-radius: 150px;
+}
