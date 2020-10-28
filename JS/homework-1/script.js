@@ -196,7 +196,11 @@
 // let d = undefined
 // console.log(typeof a ,typeof b, typeof c ,typeof d);
 
+<<<<<<< HEAD
 // task13
+=======
+//task13
+>>>>>>> a8db7aa... js.hw-1
 // let bool= (5<6);
 //
 // if ( bool){
@@ -245,3 +249,9 @@
 // if (bool4){
 //     console.log("Правда");
 // } else { console.log("Не правда");}
+<<<<<<< HEAD
+=======
+
+
+
+>>>>>>> a8db7aa... js.hw-1
