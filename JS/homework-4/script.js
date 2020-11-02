@@ -228,11 +228,57 @@ let carsdriver=[
 //     console.log(cityString);
 // }
 
-//task15
-for(drive of carsdriver){
-    driveString=JSON.stringify(drive);
+// //task15
+// for(drive of carsdriver){
+//     driveString=JSON.stringify(drive);
+//
+// }
+// carsdriverCopy=[carsdriver]
+// console.log(carsdriverCopy);
 
+// //task16
+//
+// let users = [
+//     {name: 'vasya', age: 31, status: false,skills:['drive','soft','karate']},
+//     {name: 'petya', age: 30, status: false,skills:['drive','music','videoblog']},
+//     {name: 'kolya', age: 29, status: true,skills:['alko','life','vegan']},
+//     {name: 'olya', age: 28, status: false,skills:['leng','iot','box']},
+//     {name: 'max', age: 30, status: true,skills:['adf','poll','karate']},
+//     {name: 'anya', age: 31, status: false,skills:['drive','pilot','karate','cook']}
+//     ];
+//
+// for( let i=0;i<users.length;i++){
+//      let user=users[i].skills;
+//     console.log(user);
+// ?
+// }
+
+
+//task20
+let users = [{name: 'vasya', age: 31, status: false, skills: ['java', 'js']}, {name: 'petya', age: 30, status: true, skills: ['java', 'js', 'html']}, {name: 'kolya', age: 29, status: true, skills: ['mysql', ',mongo']}, {name: 'olya', age: 28, status: false, skills: ['java', 'js']}, {name: 'max', age: 30, status: true, skills: ['mysql', 'mongo']}];
+let user
+// for(user of users){
+// let skill=user.skills
+//     for(let i=0;i<skill.length;i++){
+//     console.log(skill[i]);
+//     }
+// }
+
+// //task24
+// const kArr = [];
+// for(let user of users){
+//     for( let key in user){
+//         kArr.push(key)
+//     }
+// }
+// console.log(kArr);
+
+//task25
+for(user of users){
+   let newDiv=document.createElement("div")
+    newDiv.textContent=user.name;
+    console.log(newDiv);
+    document.body.appendChild(newDiv);
 }
-carsdriverCopy=[carsdriver]
-console.log(carsdriverCopy);
+
 
