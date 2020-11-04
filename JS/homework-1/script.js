@@ -196,6 +196,7 @@
 // let d = undefined
 // console.log(typeof a ,typeof b, typeof c ,typeof d);
 
+
 //task13
 // let bool= (5<6);
 //
@@ -245,6 +246,3 @@
 // if (bool4){
 //     console.log("Правда");
 // } else { console.log("Не правда");}
-
-
-

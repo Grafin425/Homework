@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+}
+
+.target1 {
+    width: 800px;
+    height: 500px;
+    background: peru;
+}
+
+.target2 {
+    width: 795px;
+    height: 100px;
+    background: yellow;
+}
+
+.target3 {
+    float: left;
+    width: 200px;
+    height: 300px;
+    background-color: red;
+}
+
+.target4 {
+    float: left;
+    width: 200px;
+    height: 300px;
+    background-color: gray;
+}
+
+.target5 {
+    float: left;
+    width: 200px;
+    height: 300px;
+    background-color: blue;
+}
+
+.target6 {
+    float: left;
+    width: 195px;
+    height: 300px;
+    background-color: #000000;
+}
+
+.target7 {
+    width: 795px;
+    height: 95px;
+    background-color: yellow;
+    clear: both;
+}
