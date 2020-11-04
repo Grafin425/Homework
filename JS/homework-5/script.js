@@ -272,3 +272,23 @@ arrayToPage(cars, arrayItem)
 //     }
 // }
 // arrayItemToPage(cars, divItem)
+
+
+//вітя таск
+//task3
+console.log('task3');
+const defaultStrint = 'smth'; //don`t care about it
+let myArr = [1, 3, ['Hello', 'World', [9, 6, 1]], ['oops'], 9];
+let newMyArr = []
+for (let oneIteration of myArr) {
+    if (oneIteration.length > 0) {
+        for (let secondIteration of oneIteration) {
+            if (typeof secondIteration !== typeof defaultStrint) {
+                for (let thirdIteration of secondIteration) {
+                    newMyArr.push(thirdIteration);
+                }
+            } else newMyArr.push(secondIteration);
+        }
+    } else newMyArr.push(oneIteration);
+}
+console.log(newMyArr);
