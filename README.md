@@ -6,4 +6,4 @@
 * [JS.NW-4](https://github.com/YaroslavYedyn/Homework/tree/master/JS/homework-4)  (For of. For in. JSON)
 * [JS.NW-5](https://github.com/YaroslavYedyn/Homework/tree/master/JS/homework-5)  (DOM)
 * [JS.NW-6](https://github.com/YaroslavYedyn/Homework/tree/master/JS/homework-6)  (Class. Function constructors)
-
+* [JS.NW-7](https://github.com/YaroslavYedyn/Homework/tree/master/JS/homework-7)  (Arraye methods.Prototype)
