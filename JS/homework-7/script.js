@@ -68,7 +68,6 @@ console.log(stringArr1);
 // Дан масив :
 
 let users = [
-
     {name: 'vasya', age: 31, status: false},
     {name: 'petya', age: 30, status: true},
     {name: 'kolya', age: 29, status: true},
@@ -81,3 +80,43 @@ let users = [
     {name: 'olya', age: 31, status: false},
     {name: 'max', age: 31, status: true}
     ];
+//треба один закоментити !!!!
+// users.sort((a, b) => {
+//     return a.age-b.age
+// })
+// console.log(users);
+// users.sort((a, b) => {
+//     return b.age-a.age
+// })
+// console.log(users);
+//
+// users.sort((a, b) => {
+//    return a.name.length-b.name.length
+// })
+// console.log(users);
+// users.sort((a, b) => {
+//     return b.name.length-a.name.length
+// })
+// console.log(users);
+
+//пройтись по ньому та додати кожному юзеру поле id
+let userId=users.reduce((acc, value) =>{
+    value.id=acc.length;
+    acc.push(value)
+    return acc;
+},[] )
+//ПО дефолту він відсортований по зростаню )
+console.log(userId);
+userId.sort((a, b) => {
+    return b.id-a.id;
+})
+
+//наисать функцию калькулятора с 2мя числами и колбеком
+
+function calculator(a,b,callback){
+    return callback(a,b)
+}
+
+calculator(1, 10, (a, b) => {
+    return a + b;
+});
