@@ -7,3 +7,4 @@
 * [JS.NW-5](https://github.com/YaroslavYedyn/Homework/tree/master/JS/homework-5)  (DOM)
 * [JS.NW-6](https://github.com/YaroslavYedyn/Homework/tree/master/JS/homework-6)  (Class. Function constructors)
 * [JS.NW-7](https://github.com/YaroslavYedyn/Homework/tree/master/JS/homework-7)  (Arraye methods.Prototype)
+* [JS.NW-8](https://github.com/YaroslavYedyn/Homework/tree/master/JS/homework-8)  (HTML-Events)
