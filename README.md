@@ -10,3 +10,4 @@
 * [JS.NW-8](https://github.com/YaroslavYedyn/Homework/tree/master/JS/homework-8)  (HTML-Events)
 * [JS.NW-9](https://github.com/YaroslavYedyn/Homework/tree/master/JS/homework-9)  (BOM.LocalStorage)
 * [JS.NW-10](https://github.com/YaroslavYedyn/Homework/tree/master/JS/homework-10)  (EVLoop.CallBack)
+* [React.NW-1](https://github.com/YaroslavYedyn/Homework/tree/master/React/homework-1)  (React create-app/arr components)
