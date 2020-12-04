@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:html" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:js" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:html" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:js" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a64523b6-c8e1-4748-89f0-4bb86d270200" name="Default Changelist" comment="hw-1.(create react-app)">
+      <change afterPath="$PROJECT_DIR$/../.idea/Homework.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JS/.idea/JS.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JS/homework-8/rules.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JS/homework-8/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/React.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework-pravda/.idea/homework-pravda.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JS/homework-1/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/../JS/homework-1/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JS/homework-10/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/../JS/homework-10/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JS/homework-4/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/../JS/homework-4/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JS/homework-7/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/../JS/homework-7/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JS/homework-8/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../JS/homework-8/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JS/homework-8/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/../JS/homework-8/script.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/.." value="js/homework-10" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1l5vPkfX4U6eVNp9dc1AhC0gvRe" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a64523b6-c8e1-4748-89f0-4bb86d270200" name="Default Changelist" comment="" />
+      <created>1606899744994</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1606899744994</updated>
+      <workItem from="1606899746276" duration="22000" />
+      <workItem from="1606899837764" duration="1509000" />
+    </task>
+    <task id="LOCAL-00001" summary="hw-1.(create react-app)">
+      <created>1606901067964</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1606901067964</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="hw-1.(create react-app)" />
+    <option name="LAST_COMMIT_MESSAGE" value="hw-1.(create react-app)" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="175" y="249" key="Vcs.Push.Dialog.v2" timestamp="1606901078680">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="175" y="249" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1606901078680" />
+    <state x="239" y="242" key="run.anything.popup" timestamp="1606900082549">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="239" y="242" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1606900082549" />
+  </component>
+</project>
