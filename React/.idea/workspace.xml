@@ -41,24 +41,14 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a64523b6-c8e1-4748-89f0-4bb86d270200" name="Default Changelist" comment="hw-1.(create react-app)">
-      <change afterPath="$PROJECT_DIR$/../.idea/Homework.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JS/.idea/JS.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JS/homework-8/rules.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JS/homework-8/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/React.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../homework-pravda/.idea/homework-pravda.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JS/homework-1/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/../JS/homework-1/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JS/homework-10/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/../JS/homework-10/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JS/homework-4/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/../JS/homework-4/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JS/homework-7/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/../JS/homework-7/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JS/homework-8/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../JS/homework-8/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JS/homework-8/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/../JS/homework-8/script.js" afterDir="false" />
+    <list default="true" id="a64523b6-c8e1-4748-89f0-4bb86d270200" name="Default Changelist" comment="test repo">
+      <change afterPath="$PROJECT_DIR$/homework-1/src/components/AllCars/AllCars.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework-1/src/components/AllComents/AllComents.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework-1/src/components/Item/CommentItem.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework-1/src/components/Item/Item.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework-1/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/homework-1/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework-1/src/components/carsComp/Cars.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,6 +73,12 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -96,6 +92,7 @@
       <updated>1606899744994</updated>
       <workItem from="1606899746276" duration="22000" />
       <workItem from="1606899837764" duration="1509000" />
+      <workItem from="1607091753606" duration="4653000" />
     </task>
     <task id="LOCAL-00001" summary="hw-1.(create react-app)">
       <created>1606901067964</created>
@@ -104,7 +101,21 @@
       <option name="project" value="LOCAL" />
       <updated>1606901067964</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="test repo">
+      <created>1607091819309</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1607091819309</updated>
+    </task>
+    <task id="LOCAL-00003" summary="test repo">
+      <created>1607091890892</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1607091890892</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -124,16 +135,21 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="hw-1.(create react-app)" />
-    <option name="LAST_COMMIT_MESSAGE" value="hw-1.(create react-app)" />
+    <MESSAGE value="test repo" />
+    <option name="LAST_COMMIT_MESSAGE" value="test repo" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="175" y="249" key="Vcs.Push.Dialog.v2" timestamp="1606901078680">
+    <state x="425" y="139" key="RollbackChangesDialog" timestamp="1607092071669">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="175" y="249" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1606901078680" />
-    <state x="239" y="242" key="run.anything.popup" timestamp="1606900082549">
+    <state x="425" y="139" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607092071669" />
+    <state x="175" y="249" key="Vcs.Push.Dialog.v2" timestamp="1607091902107">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="239" y="242" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1606900082549" />
+    <state x="175" y="249" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1607091902107" />
+    <state x="239" y="242" key="run.anything.popup" timestamp="1607096227511">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="239" y="242" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1607096227511" />
   </component>
 </project>
