@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import AllCars from "./components/AllCars/AllCars";
-import AllPost from "./components/AllPost/AllPost";
+import AllPosts from "./components/AllPosts/AllPosts";
 import AllComents from "./components/AllComents/AllComents";
 
 class App extends Component {
@@ -9,7 +9,7 @@ class App extends Component {
             <div>
                 <AllCars/>
                 <hr/>
-                <AllPost/>
+                <AllPosts/>
                 <hr/>
                 <AllComents/>
             </div>

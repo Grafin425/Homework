@@ -41,9 +41,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a64523b6-c8e1-4748-89f0-4bb86d270200" name="Default Changelist" comment="react/hw-2(state)">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homework-1/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/homework-1/src/App.js" afterDir="false" />
+    <list default="true" id="86d2dd85-c1e6-440f-8ee3-4c13f3256abc" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JS/homework-4/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/../JS/homework-4/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JS/homework-6/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/../JS/homework-6/script.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,14 +52,9 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$/.." value="react/homework-1" />
-      </map>
-    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectId" id="1l5vPkfX4U6eVNp9dc1AhC0gvRe" />
+  <component name="ProjectId" id="1jgnsZwDQgyNSNGf658h3NEDwO2" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -74,50 +70,21 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="a64523b6-c8e1-4748-89f0-4bb86d270200" name="Default Changelist" comment="" />
-      <created>1606899744994</created>
+      <changelist id="86d2dd85-c1e6-440f-8ee3-4c13f3256abc" name="Default Changelist" comment="" />
+      <created>1604234809804</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1606899744994</updated>
-      <workItem from="1606899746276" duration="22000" />
-      <workItem from="1606899837764" duration="1509000" />
-      <workItem from="1607091753606" duration="5493000" />
+      <updated>1604234809804</updated>
+      <workItem from="1604234810898" duration="756000" />
+      <workItem from="1604753992788" duration="1204000" />
+      <workItem from="1604763204146" duration="4000" />
+      <workItem from="1604763802277" duration="4000" />
     </task>
-    <task id="LOCAL-00001" summary="hw-1.(create react-app)">
-      <created>1606901067964</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1606901067964</updated>
-    </task>
-    <task id="LOCAL-00002" summary="test repo">
-      <created>1607091819309</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1607091819309</updated>
-    </task>
-    <task id="LOCAL-00003" summary="test repo">
-      <created>1607091890892</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1607091890892</updated>
-    </task>
-    <task id="LOCAL-00004" summary="react/hw-2(state)">
-      <created>1607096491023</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1607096491023</updated>
-    </task>
-    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -135,24 +102,10 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="hw-1.(create react-app)" />
-    <MESSAGE value="test repo" />
-    <MESSAGE value="react/hw-2(state)" />
-    <option name="LAST_COMMIT_MESSAGE" value="react/hw-2(state)" />
-  </component>
   <component name="WindowStateProjectService">
-    <state x="425" y="139" key="RollbackChangesDialog" timestamp="1607092071669">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1604234922067">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="425" y="139" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607092071669" />
-    <state x="175" y="249" key="Vcs.Push.Dialog.v2" timestamp="1607096499104">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="175" y="249" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1607096499104" />
-    <state x="239" y="242" key="run.anything.popup" timestamp="1607096227511">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="239" y="242" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1607096227511" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1604234922067" />
   </component>
 </project>
