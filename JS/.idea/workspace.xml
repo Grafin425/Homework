@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:html" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:html" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9fb69732-3510-421c-9461-52dcaaf8b62e" name="Default Changelist" comment="js.hw-3">
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework-4/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/homework-4/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework-6/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/homework-6/script.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/.." value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1jV7lHCUQVJuH6PuumSusW3vahC" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ChangesTree.GroupingKeys" value="directory" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="MTConfigurable" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\OktenWeb\Homework\JS\homework-3\js" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9fb69732-3510-421c-9461-52dcaaf8b62e" name="Default Changelist" comment="" />
+      <created>1603877556072</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1603877556072</updated>
+      <workItem from="1603877557309" duration="8376000" />
+      <workItem from="1603885992128" duration="272000" />
+      <workItem from="1603999951548" duration="8745000" />
+      <workItem from="1604074355166" duration="106000" />
+      <workItem from="1604077938944" duration="35000" />
+      <workItem from="1604225689196" duration="18000" />
+      <workItem from="1604225725982" duration="870000" />
+      <workItem from="1604238347493" duration="1159000" />
+      <workItem from="1604246267122" duration="7624000" />
+      <workItem from="1604270625758" duration="1854000" />
+      <workItem from="1604301378903" duration="1024000" />
+      <workItem from="1604937130149" duration="4000" />
+    </task>
+    <task id="LOCAL-00001" summary="js.hw-1">
+      <created>1603886098588</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1603886098588</updated>
+    </task>
+    <task id="LOCAL-00002" summary="js.hw-2">
+      <created>1604007893691</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1604007893691</updated>
+    </task>
+    <task id="LOCAL-00003" summary="js.hw-2">
+      <created>1604008062987</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1604008062987</updated>
+    </task>
+    <task id="LOCAL-00004" summary="js.hw-2">
+      <created>1604008094170</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1604008094170</updated>
+    </task>
+    <task id="LOCAL-00005" summary="js.hw-2">
+      <created>1604008956179</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1604008956179</updated>
+    </task>
+    <task id="LOCAL-00006" summary="js.hw-3">
+      <created>1604301684020</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1604301684020</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="js.hw-1" />
+    <MESSAGE value="js.hw-2" />
+    <MESSAGE value="js.hw-3" />
+    <option name="LAST_COMMIT_MESSAGE" value="js.hw-3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="145" y="201" key="#Inspections" timestamp="1603878165747">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="145" y="201" key="#Inspections/0.0.1920.1040@0.0.1920.1040" timestamp="1603878165747" />
+    <state x="0" y="93" width="1536" height="860" key="DiffContextDialog" timestamp="1604301343661">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="0" y="93" width="1536" height="860" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604301343661" />
+    <state x="0" y="106" key="MergeDialog" timestamp="1604009043557">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="0" y="106" key="MergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604009043557" />
+    <state x="189" y="294" key="MultipleFileMergeDialog" timestamp="1604009043563">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="189" y="294" key="MultipleFileMergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604009043563" />
+    <state x="397" y="139" key="RollbackChangesDialog" timestamp="1604301440942">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="397" y="139" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604301440942" />
+    <state x="636" y="188" width="998" height="708" key="SettingsEditor" timestamp="1603877804226">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="636" y="188" width="998" height="708" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1603877804226" />
+    <state x="174" y="256" key="Vcs.Push.Dialog.v2" timestamp="1604301751630">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="174" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1604301751630" />
+    <state x="376" y="450" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604008951260">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="376" y="450" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1604008951260" />
+    <state x="884" y="0" width="1052" height="707" key="dock-window-1" timestamp="1604247670458">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="884" y="0" width="1052" height="707" key="dock-window-1/0.0.1920.1040@0.0.1920.1040" timestamp="1604247670458" />
+    <state x="1093" y="0" width="691" height="707" key="dock-window-2" timestamp="1604247826756">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1093" y="0" width="691" height="707" key="dock-window-2/0.0.1920.1040@0.0.1920.1040" timestamp="1604247826756" />
+    <state x="317" y="151" key="git4idea.branch.GitSmartOperationDialog" timestamp="1604301466002">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="317" y="151" key="git4idea.branch.GitSmartOperationDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604301466002" />
+    <state x="420" y="449" key="git4idea.rebase.GitUnstructuredEditor" timestamp="1604009048151">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="420" y="449" key="git4idea.rebase.GitUnstructuredEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1604009048151" />
+    <state x="175" y="244" key="run.anything.popup" timestamp="1604238580638">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="175" y="244" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1604238580638" />
+    <state x="182" y="232" width="672" height="678" key="search.everywhere.popup" timestamp="1604249179040">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="182" y="232" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1604249179040" />
+  </component>
+</project>

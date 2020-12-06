@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import AllCars from "./components/AllCars/AllCars";
+import AllUsers from "./components/AllUsers/AllUsers";
 import AllPosts from "./components/AllPosts/AllPosts";
 import AllComents from "./components/AllComents/AllComents";
 import AllPhoto from "./components/AllPhoto/AllPhoto";
@@ -8,7 +8,7 @@ class App extends Component {
     render() {
         return (
             <div>
-                <AllCars/>
+                <AllUsers/>
                 <hr/>
                 <AllPosts/>
                 <hr/>
