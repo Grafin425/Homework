@@ -14,3 +14,5 @@
 # React module
 * [React.NW-1](https://github.com/YaroslavYedyn/Homework/tree/master/React/homework-1)  (React create-app/arr components)
 * [React.NW-2](https://github.com/YaroslavYedyn/Homework/tree/react/homework-2/React/homework-1)  (state,setState,props)
+https://github.com/YaroslavYedyn/Homework/tree/master/React/homework-2
+* [React.NW-2(fetch)](https://github.com/YaroslavYedyn/Homework/tree/master/React/homework-2)  (fetch,services.getAll)
