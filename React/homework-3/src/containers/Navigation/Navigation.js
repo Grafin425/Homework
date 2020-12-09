@@ -20,7 +20,7 @@ class Navigation extends Component {
                     <Route path='/comments'>
                         <AllComments/>
                     </Route>
-                    <Route path='/posts'>
+                    <Route path='/posts' exact={true}>
                         <AllPosts/>
                     </Route>
                 </Switch>
