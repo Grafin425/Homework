@@ -1,14 +1,19 @@
 import React, {Component} from 'react';
+import {
+    Link,
+    withRouter,
+} from "react-router-dom";
 
 class User extends Component {
     render() {
-        let {item} = this.props;
+        let {item,match:{url}} = this.props;
+        console.log(this.props);
         return (
-            <div>
-                <div>{item.id}--{item.name}--{item.username}</div>
-            </div>
+                <div style={{display: 'flex'}}>
+                    <div>{item.name}--{item.username}-<button><Link to={`${url}/${item.id}`}>All Posts</Link></button></div>
+                </div>
         );
     }
 }
 
-export default User;
+export default withRouter(User);

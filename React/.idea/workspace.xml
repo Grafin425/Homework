@@ -41,16 +41,16 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a64523b6-c8e1-4748-89f0-4bb86d270200" name="Default Changelist" comment="react/hw-3 add comments">
+    <list default="true" id="a64523b6-c8e1-4748-89f0-4bb86d270200" name="Default Changelist" comment="react/practical">
+      <change afterPath="$PROJECT_DIR$/homework-3/src/components/FullUsers/FullUsers.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../HTML/homework-pravda" beforeDir="false" afterPath="$PROJECT_DIR$/../HTML/homework-pravda" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homework-2/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/homework-2/.eslintcache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homework-2/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/homework-2/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homework-2/src/components/AllComents/AllComents.js" beforeDir="false" afterPath="$PROJECT_DIR$/homework-2/src/components/AllComents/AllComents.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homework-2/src/components/AllPhoto/AllPhoto.js" beforeDir="false" afterPath="$PROJECT_DIR$/homework-2/src/components/AllPhoto/AllPhoto.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homework-2/src/components/AllPosts/AllPosts.js" beforeDir="false" afterPath="$PROJECT_DIR$/homework-2/src/components/AllPosts/AllPosts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homework-2/src/components/AllUsers/AllUsers.js" beforeDir="false" afterPath="$PROJECT_DIR$/homework-2/src/components/AllUsers/AllUsers.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homework-2/src/services/UserServices.js" beforeDir="false" afterPath="$PROJECT_DIR$/homework-2/src/services/UserServices.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework-1/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/homework-1/.eslintcache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework-3/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/homework-3/.eslintcache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework-3/src/components/AllUsers/AllUsers.js" beforeDir="false" afterPath="$PROJECT_DIR$/homework-3/src/components/AllUsers/AllUsers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework-3/src/components/Item/Post.js" beforeDir="false" afterPath="$PROJECT_DIR$/homework-3/src/components/Item/Post.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework-3/src/components/Item/User.js" beforeDir="false" afterPath="$PROJECT_DIR$/homework-3/src/components/Item/User.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework-3/src/containers/Navigation/Navigation.js" beforeDir="false" afterPath="$PROJECT_DIR$/homework-3/src/containers/Navigation/Navigation.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,6 +106,7 @@
       <workItem from="1607343911583" duration="21000" />
       <workItem from="1607463613643" duration="1399000" />
       <workItem from="1607466955092" duration="299000" />
+      <workItem from="1607505881036" duration="7267000" />
     </task>
     <task id="LOCAL-00001" summary="hw-1.(create react-app)">
       <created>1606901067964</created>
@@ -170,7 +171,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607467023533</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="react/practical">
+      <created>1607506008161</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1607506008161</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -196,17 +204,22 @@
     <MESSAGE value="react/hw-2 add Photo" />
     <MESSAGE value="react/hw-3" />
     <MESSAGE value="react/hw-3 add comments" />
-    <option name="LAST_COMMIT_MESSAGE" value="react/hw-3 add comments" />
+    <MESSAGE value="react/practical" />
+    <option name="LAST_COMMIT_MESSAGE" value="react/practical" />
   </component>
   <component name="WindowStateProjectService">
     <state x="425" y="139" key="RollbackChangesDialog" timestamp="1607092071669">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="425" y="139" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607092071669" />
-    <state x="175" y="249" key="Vcs.Push.Dialog.v2" timestamp="1607464016138">
+    <state x="175" y="249" key="Vcs.Push.Dialog.v2" timestamp="1607506018712">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="175" y="249" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1607464016138" />
+    <state x="175" y="249" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1607506018712" />
+    <state x="352" y="151" key="git4idea.branch.GitSmartOperationDialog" timestamp="1607505969587">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="352" y="151" key="git4idea.branch.GitSmartOperationDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607505969587" />
     <state x="239" y="242" key="run.anything.popup" timestamp="1607096227511">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
