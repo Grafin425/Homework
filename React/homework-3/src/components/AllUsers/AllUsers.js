@@ -1,9 +1,9 @@
 import React, {Component} from 'react';
 import UserServices from "../../services/UserServices";
-import User from "../Item/User";
 import {Route, Switch, withRouter} from "react-router-dom";
 
-import FullUsers from "../FullUsers/FullUsers";
+import PostFromUser from "../PostFromUser/PostFromUser";
+import User from "../Item/User";
 
 class AllUsers extends Component {
     userServices=new UserServices();
@@ -24,10 +24,11 @@ class AllUsers extends Component {
 
                 }
                <div>
+                   <hr/>
                    <Switch>
-                       <Route path={`${url}/:id`} exact={true} render={(props)=>{
+                       <Route path={`${url}/:id/post`}  render={(props)=>{
                            let {match:{params:{id}}} = props;
-                           return <FullUsers id={id}/>}}/>
+                           return <PostFromUser id={id} key={id}/>}}/>
                    </Switch>
                </div>
             </div>

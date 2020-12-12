@@ -1,4 +1,5 @@
 export default class UserServices {
+    baseUrl='https://jsonplaceholder.typicode.com/'
     urlUsers ='https://jsonplaceholder.typicode.com/users';
     urlComment='https://jsonplaceholder.typicode.com/comments'
     urlPosts='https://jsonplaceholder.typicode.com/posts'
@@ -11,6 +12,12 @@ export default class UserServices {
     }
     async getAllPosts(){
         return  await fetch(this.urlPosts).then(value => value.json());
+    }
+    async getPostByUserId(UserId){
+        return await  fetch(`${this.urlPosts}?userId=${UserId}`)
+    }
+   async getCommentByPost(PostId){
+    return await fetch(`${this.urlComment}?postId=${PostId}`)
     }
 
 };

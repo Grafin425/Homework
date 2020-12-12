@@ -10,7 +10,7 @@ class User extends Component {
         console.log(this.props);
         return (
                 <div style={{display: 'flex'}}>
-                    <div>{item.name}--{item.username}-<button><Link to={`${url}/${item.id}`}>All Posts</Link></button></div>
+                    <div>{item.name}--{item.username}-<button><Link to={`${url}/${item.id}/post`}>All Posts</Link></button></div>
                 </div>
         );
     }
