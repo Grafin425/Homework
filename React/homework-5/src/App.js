@@ -1,15 +1,14 @@
 import React, {Component} from 'react';
+import Users from "./component/Users";
 
-class FullUsers extends Component {
-
+class App extends Component {
     render() {
-        let {id} = this.props;
         return (
             <div>
-                {id}
+                <Users/>
             </div>
         );
     }
 }
 
-export default FullUsers;
+export default App;
