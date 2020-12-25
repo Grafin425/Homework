@@ -20,5 +20,6 @@
 * [React.NW-5](https://github.com/YaroslavYedyn/Homework/tree/master/React/homework-5)  (Context,hooks)
 * [React.NW-messenger](https://github.com/YaroslavYedyn/Homework/tree/master/React/homework-messenger)  (Підсомок по пройдених темах)
 * [React.NW-6](https://github.com/YaroslavYedyn/Homework/tree/master/React/homework-6)  (react hooks)
+* [React.NW-7](https://github.com/YaroslavYedyn/Homework/tree/master/React/homework-7)  (thunk,react-redux...)
 
 
