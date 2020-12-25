@@ -1,0 +1,1 @@
+export const INC_COUNTER_SHOP = "INC_COUNTER";

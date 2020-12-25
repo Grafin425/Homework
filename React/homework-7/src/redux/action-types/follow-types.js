@@ -1,0 +1,1 @@
+export const INC_COUNTER_FOLLOW = "INC_COUNTER_FOLLOW";
