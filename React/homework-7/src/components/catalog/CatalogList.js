@@ -7,12 +7,11 @@ export default function CatalogList() {
        await fetch('https://fakestoreapi.com/products')
             .then(value => value.json())
             .then(value => setList(value))
-        console.log(list);
     }
-
 
     useEffect(() => {
         FetchList()
+
 
     }, [])
     return (
