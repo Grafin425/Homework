@@ -1,1 +1,1 @@
-export const INC_COUNTER_SHOP = "INC_COUNTER";
+export const TOGGLE_ITEM_IN_CART='TOGGLE_ITEM_IN_CART'

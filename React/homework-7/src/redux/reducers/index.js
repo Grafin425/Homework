@@ -1,12 +1,13 @@
 import { combineReducers } from "redux";
 
-import counterReducer from "./shop-reducer";
-import followReducer from "./follow-reducer";
+import cart from "./shop-reducer";
+import wishlist from "./follow-reducer";
+import products from "./products-reducer";
 
 
 export const reducer = combineReducers({
-    counter: counterReducer,
-    follow:followReducer,
-    itemFollow:followReducer,
-    shopIcon:counterReducer
+    cart,
+    wishlist,
+    products
+
 });

@@ -1,20 +1,24 @@
-import {DEC_COUNTER_FOLLOW, INC_COUNTER_FOLLOW} from "../action-types";
+import {TOGGLE_ITEM_IN_WISHLIST} from "../action-types";
 
 
 const initialState = {
 
-    follow: 0,
-    itemFollow:true
+    wishlist:[]
 };
 
 const reducer = (state = initialState, action) => {
     switch (action.type) {
-        case INC_COUNTER_FOLLOW: {
-            console.log(action.payload);
-            return { ...state, follow: state.follow+1,itemFollow: !state.itemFollow};
-        }
-        case DEC_COUNTER_FOLLOW:{
-            return {...state,follow: state.follow-1,itemFollow: !state.itemFollow}
+        case TOGGLE_ITEM_IN_WISHLIST: {
+            console.log(action);
+            const updatedWishlist = state.wishlist.filter(
+                (el) => el.id !== action.payload.id
+            );
+
+            if (updatedWishlist.length === state.wishlist.length) {
+                updatedWishlist.push(action.payload);
+            }
+
+            return { ...state, wishlist: updatedWishlist };
         }
         default: {
             return state;

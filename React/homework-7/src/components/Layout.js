@@ -6,12 +6,17 @@ import heart from "../image/heart.svg";
 import {useSelector} from "react-redux";
 
 export default function Layout() {
+    const {cart, wishlist} = useSelector(
+        ({cart: {cart}, wishlist: {wishlist}}) => ({
+            wishlist,
+            cart
+        })
+    );
+    const totalPrice = cart.reduce((acc, value) => {
+        return acc + value.price;
+    }, 0)
 
-    const {counter,follow}=useSelector(({counter:{counter},follow:{follow}})=>({
-        counter,
-        follow
-    }))
-    console.log(counter);
+
     return (
         <div style={{
             wight: "80%",
@@ -27,15 +32,15 @@ export default function Layout() {
                     <img style={{marginLeft: 5}} src={atomic} alt="logo"/>
                 </h3>
             </div>
-            <div >
-                <a>
-                    <Badge count={follow}>
+            <div>
+                <a title={wishlist.length}>
+                    <Badge count={wishlist.length}>
                         <img style={{wight: 28, height: 28}} src={heart} alt="heart"/>
                         <span className="head-example"/>
                     </Badge>
                 </a>
-                <a  style={{marginLeft:20}}>
-                    <Badge count={counter}>
+                <a title={`${totalPrice}$`} style={{marginLeft: 20}}>
+                    <Badge count={cart.length}>
                         <img style={{wight: 28, height: 28}} src={basket} alt='shop'/>
                         <span className="head-example"/>
                     </Badge>

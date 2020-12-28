@@ -1,3 +1,6 @@
-import { INC_COUNTER_SHOP} from "../action-types";
+import { TOGGLE_ITEM_IN_CART} from "../action-types";
 
-export const incCounter = () => ({ type: INC_COUNTER_SHOP });
+export const toggleItemInCart = (product) => ({
+    type: TOGGLE_ITEM_IN_CART,
+    payload: product
+});
