@@ -8,7 +8,7 @@ const FollowIcon = ({isAddedToWishlist, onAddToWishList, item,}) => {
         <div>
             <a onClick={() => onAddToWishList(item)}>
                 <Badge count={null}>
-                    <img style={{wight: 22, height: 22}} src={isAddedToWishlist?heartBlack:heart} alt="heart"/>
+                    <img style={{wight: 22, height: 22}} src={isAddedToWishlist ? heartBlack : heart} alt="heart"/>
 
                     <span className="head-example"/>
                 </Badge>
