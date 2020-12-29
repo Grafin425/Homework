@@ -9,5 +9,4 @@ export const reducer = combineReducers({
     cart,
     wishlist,
     products
-
 });

@@ -24,8 +24,41 @@ footer{
 card {
 font-size: 16px;
   margin-top: 16px;
-  width:600px
+  width:600px;
+  display: flex;
+  align-items: center;
 }
+info {
+  width: 500px;
+}
+checkout {
+  position: relative;
+  width:200px;
+  height:300px;
+  border: 1px solid #bab9b9;
+  display: block;
+}
+total {
+  padding-top: 20px;
+  padding-left: 10px;
+  position: absolute;
+  width:100%;
+  height: 220px;
+  border-bottom: 1px solid #bab9b9;
+  color: black;
+  font-size: 16px;
+  font-weight: 500;
+}
+operations {
+  justify-content: space-around;
+  align-items: center;
+  position: absolute;
+  width:100%;
+  height: 80px;
+  margin-top:220px ;
+  display: flex;
+}
+
 
 .border{
   color: black;
