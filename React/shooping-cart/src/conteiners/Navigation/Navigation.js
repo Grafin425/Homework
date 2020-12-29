@@ -14,10 +14,7 @@ const Navigation = () => {
         cart,
 
     }))
-    // const total = cart.reduce((acc, value) => {
-    //     return acc + value.price;
-    // }, 0)
-    // console.log(total);
+    const total = cart.reduce((total, item) => total + item.price * item.quantity, 0).toFixed(2)
 
     return (
         <Router>
@@ -31,9 +28,9 @@ const Navigation = () => {
 
                         <span className="head-example"/>
                     </Badge>
-                    <Link style={{marginLeft:30}} to='/cart'>
+                    <Link style={{marginLeft: 30}} to='/cart'>
                         <Badge count={cart.length}>
-                            <img title={`товару на`} style={{wight: 22, height: 22}} src={shop} alt='shop'/>
+                            <img title={`товару на ${total}$`} style={{wight: 22, height: 22}} src={shop} alt='shop'/>
                             <span className="head-example"/>
                         </Badge>
                 </Link>

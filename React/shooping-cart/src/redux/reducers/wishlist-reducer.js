@@ -3,7 +3,7 @@ import {TOGGLE_ITEM_IN_WISHLIST} from "../action-types";
 
 const initialState = {
 
-    wishlist:[]
+    wishlist: []
 };
 
 const reducer = (state = initialState, action) => {
@@ -18,7 +18,7 @@ const reducer = (state = initialState, action) => {
                 updatedWishlist.push(action.payload);
             }
 
-            return { ...state, wishlist: updatedWishlist };
+            return {...state, wishlist: updatedWishlist};
         }
         default: {
             return state;
