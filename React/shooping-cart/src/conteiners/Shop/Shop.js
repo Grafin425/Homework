@@ -8,7 +8,6 @@ const Shop= ()=> {
         wishlist,
         cart
     }))
-    console.log(products);
     return(
       <div style={{display: 'flex', width: '98%', margin: '0 auto', flexWrap: 'wrap',}}>
           {products&& products.map(item =>
