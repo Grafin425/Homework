@@ -1,1 +1,2 @@
 export const TOGGLE_ITEM_IN_CART='TOGGLE_ITEM_IN_CART'
+export const CLEAR_CART='CLEAR_CART'

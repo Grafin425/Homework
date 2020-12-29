@@ -1,4 +1,4 @@
-import {TOGGLE_ITEM_IN_CART} from "../action-types";
+import {TOGGLE_ITEM_IN_CART,CLEAR_CART} from "../action-types";
 
 const initialState = {
     cart:[]
@@ -17,7 +17,11 @@ const reducer = (state = initialState, action) => {
 
             return { ...state, cart: updatedCartlist };
         }
+        case CLEAR_CART:{
+            console.log('clear');
+            return {...state,cart: []}
 
+        }
         default: {
             return state;
         }
