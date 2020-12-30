@@ -63,6 +63,18 @@ operations {
   transform: scale(1.2);
 }
 
+spin{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  align-items: center;
+  align-content: center;
+  background: rgba(0, 0, 0, 0.01)  ;
+
+}
+
 
 .border{
   color: black;
