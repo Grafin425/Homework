@@ -5,20 +5,18 @@ import React from "react";
 import {clearCart} from '../../redux'
 
 export default function Cart() {
-     const dispatch=useDispatch()
+    const dispatch = useDispatch()
 
-    const clearCartClick=()=>{
+    const clearCartClick = () => {
         dispatch(clearCart())
     }
 
-
-    const {cart} = useSelector(({cart: {cart} }) => ({
+    const {cart} = useSelector(({cart: {cart}}) => ({
         cart,
     }))
-    // const total = cart.reduce((acc, value) => {
-    //     return acc + value.price
-    // }, 0)
-    // const tatalPrice = Math.floor(total)
+
+    let itemCount = cart.reduce((total, product) => total + product.quantity, 0);
+    const total = cart.reduce((total, item) => total + item.price * item.quantity, 0).toFixed(2)
     return (
         <div className="d-flex justify-center align-center">
             <div className='align-center justify-center direction-column d-flex'>
@@ -29,9 +27,9 @@ export default function Cart() {
             {cart.length &&
             <checkout>
                 <total>
-                    <p>Total Items: <h2>{cart.length}</h2></p>
+                    <p>Total Items: <h2>{itemCount}</h2></p>
                     <p style={{marginTop: 20}}>Payment</p>
-                    <h2>$</h2>
+                    <h2>{total}$</h2>
                 </total>
 
                 <operations>

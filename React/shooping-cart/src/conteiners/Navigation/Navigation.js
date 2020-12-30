@@ -7,6 +7,7 @@ import {Badge} from "antd";
 import shop from "../../image/shopping-cart.svg";
 import {useSelector} from "react-redux";
 import heart from "../../image/heart.svg";
+import Wishlist from "../Wishlist/Wishlist";
 
 const Navigation = () => {
     const {wishlist, cart} = useSelector(({wishlist: {wishlist}, cart: {cart}}) => ({
@@ -23,11 +24,13 @@ const Navigation = () => {
                 <Link className="border" to='/about'>About</Link>
 
                 <span className="justify-between">
+                    <Link to='/wishlist'>
                     <Badge count={wishlist.length}>
                         <img style={{wight: 22, height: 22}} src={heart} alt="heart"/>
 
                         <span className="head-example"/>
                     </Badge>
+                        </Link>
                     <Link style={{marginLeft: 30}} to='/cart'>
                         <Badge count={cart.length}>
                             <img title={`товару на ${total}$`} style={{wight: 22, height: 22}} src={shop} alt='shop'/>
@@ -45,6 +48,9 @@ const Navigation = () => {
                 </Route>
                 <Route path='/cart' exact={true}>
                     <Cart/>
+                </Route>
+                <Route path='/wishlist' exact={true}>
+                    <Wishlist/>
                 </Route>
             </Switch>
         </Router>
