@@ -22,6 +22,6 @@
 * [React.NW-6](https://github.com/YaroslavYedyn/Homework/tree/master/React/homework-6)  (react hooks)
 * [React.NW-7](https://github.com/YaroslavYedyn/Homework/tree/master/React/homework-7)  (thunk,react-redux...)
 * [React.shooping-cart](https://github.com/YaroslavYedyn/Homework/tree/master/React/shooping-cart)  (React shooping-cart app )
-
+* [React.movies-app](https://github.com/YaroslavYedyn/Homework/tree/master/React/movie) (React project,site for watching movies)
 
 
