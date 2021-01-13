@@ -1,26 +1,25 @@
 import './App.css';
 import React, {useEffect} from 'react'
-import {useDispatch, useSelector} from "react-redux";
+import {useDispatch} from "react-redux";
 import {setMovies} from "./redux";
+import Home from "./conteiners/Home/Home";
+import Header from "./conteiners/Header/Header";
+import {Container, Wrapper} from "./style";
 
 function App() {
-    const {movies} = useSelector(({movies: {movies}}) => ({
-        movies
-    }))
+
     const dispatch = useDispatch();
     useEffect(() => {
         dispatch(setMovies())
     }, [])
-    const {results}=movies
-    console.log(results);
-    return (
-        <div>
-            {
-                results.map(movie => <div>{movie.id}-{movie.poster_path} <img
-                    src={`https://image.tmdb.org/t/p/w500${movie.poster_path}`} alt=""/></div>)
-            }
-        </div>
 
+    return (
+        <Container>
+            <Wrapper>
+                <Header/>
+                <Home/>
+            </Wrapper>
+        </Container>
     );
 }
 
