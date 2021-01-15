@@ -1,0 +1,17 @@
+.avatar{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    text-align: center;
+    border:1px solid grey;
+    padding:3px;
+    background: #d4d4d4;
+}
+.user-name{
+    font-size:14px;
+    color:grey;
+    align-items: center;
+    margin-left:2px;
+
+    display: flex;
+}

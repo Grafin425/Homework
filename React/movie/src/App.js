@@ -2,9 +2,8 @@ import './App.css';
 import React, {useEffect} from 'react'
 import {useDispatch} from "react-redux";
 import {setMovies} from "./redux";
-import Home from "./conteiners/Home/Home";
 import Header from "./conteiners/Header/Header";
-import {Container, Wrapper} from "./style";
+import styles from './index.css'
 
 function App() {
 
@@ -14,12 +13,11 @@ function App() {
     }, [])
 
     return (
-        <Container>
-            <Wrapper>
+        <div className={styles.container}>
+            <div className={styles.wrapper}>
                 <Header/>
-                <Home/>
-            </Wrapper>
-        </Container>
+            </div>
+        </div>
     );
 }
 

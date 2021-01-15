@@ -1,4 +1,7 @@
 import {useSelector} from "react-redux";
+import MovieItem from "../../components/Item/MovieItem";
+import styles from './Home.module.css'
+
 
 const Home=()=>{
     const {movies} = useSelector(({movies: {movies}}) => ({
@@ -7,10 +10,10 @@ const Home=()=>{
     const {results}=movies
     console.log(results);
   return(
-      <div>
+      <div className={styles.listWrapper} >
           {
-              results && results.map(movie => <div><img
-                  src={`https://image.tmdb.org/t/p/w500${movie.poster_path}`} alt=""/></div>)
+              results && results.map(movie=><MovieItem item={movie} key={movie.id}/>)
+
           }
       </div>
   )
