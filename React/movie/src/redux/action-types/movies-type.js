@@ -1,1 +1,2 @@
 export const SET_MOVIES='SET_MOVIES';
+export const SET_MOVIES_SEARCH='SET_MOVIES_SEARCH'

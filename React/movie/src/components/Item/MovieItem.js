@@ -3,13 +3,11 @@ import styles from './Item.module.css'
 import RatingItem from "./RatingItem";
 
 
-
-const MovieItem = ({item}) => {
-    console.log(item);
+const MovieItem = ({item,onFilmClick}) => {
     const {original_title, overview, backdrop_path,vote_average} = item
     const baseUrl = 'https://image.tmdb.org/t/p/w400/'
     return (
-        <div className={styles.card}>
+        <div className={styles.card} onClick={()=>onFilmClick(item)}>
             <div className={styles.image}>
                 <img src={`${baseUrl}${backdrop_path}`} alt=""/>
             </div>
@@ -23,6 +21,7 @@ const MovieItem = ({item}) => {
 
 
         </div>
+
     )
 }
 export default MovieItem
