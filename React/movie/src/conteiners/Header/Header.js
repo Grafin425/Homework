@@ -2,14 +2,15 @@ import React from "react";
 import logo from '../../image/trim.svg'
 import SearchInput from "../../components/Input/SearchInput";
 import UserAvatar from "../../components/User/UserAvatar";
-import {BrowserRouter as Router, Link, Route, Switch} from "react-router-dom";
+import {Link, Route, Switch} from "react-router-dom";
 import Home from '../Home/Home';
 import About from "../About/About";
 import styles from './Header.module.css'
+import MovieDetails from "../MovieDetails/MovieDetails";
 
-const Header=()=>{
+const Header=({onSearchMovie})=>{
   return(
-      <Router>
+      <div>
       <div className={styles.header}>
           <Link to='/'>
           <div className={styles.logo}>
@@ -22,7 +23,7 @@ const Header=()=>{
                   </div>
           </div>
           </Link>
-<SearchInput/>
+<SearchInput onSearchMovie={onSearchMovie}/>
 <Link to='about'>
 <UserAvatar/>
 </Link>
@@ -32,8 +33,11 @@ const Header=()=>{
                   <Home/>
               </Route>
               <Route path='/about' exact={true}><About/></Route>
+              <Route path='/movie/:id'>
+                  <MovieDetails/>
+              </Route>
           </Switch>
-      </Router>
+      </div>
   )
 }
  export default Header

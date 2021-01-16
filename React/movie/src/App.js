@@ -4,8 +4,15 @@ import {useDispatch} from "react-redux";
 import {setMovies} from "./redux";
 import Header from "./conteiners/Header/Header";
 import styles from './index.css'
+import {searchService} from "./services";
 
 function App() {
+    const onSearchMovie= async (value)=>{
+        let promise =  await searchService.getMoviesBySearch(value).then();
+        console.log(promise);
+
+    }
+
 
     const dispatch = useDispatch();
     useEffect(() => {
@@ -15,7 +22,7 @@ function App() {
     return (
         <div className={styles.container}>
             <div className={styles.wrapper}>
-                <Header/>
+                <Header onSearchMovie={onSearchMovie}/>
             </div>
         </div>
     );
