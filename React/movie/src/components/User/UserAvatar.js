@@ -1,7 +1,7 @@
 import React from 'react';
 import user from '../../image/user.svg'
 import styles from './User.module.css'
-const UserAvatar=()=>{
+export const UserAvatar=()=>{
   return(
       <div style={{display:'flex'}}>
       <div className={styles.avatar}>
@@ -12,4 +12,3 @@ const UserAvatar=()=>{
       </div>
   )
 }
- export default UserAvatar
