@@ -33,7 +33,7 @@ const Home = () => {
         >
         <div className={styles.listWrapper}>
             {
-                movies && results.map(movie => <MovieItem item={movie} key={movie.id} onFilmClick={onFilmClick}/>)
+                movies && results && results.map(movie => <MovieItem item={movie} key={movie.id} onFilmClick={onFilmClick}/>)
 
             }
         </div>
