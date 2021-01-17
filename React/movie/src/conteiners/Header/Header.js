@@ -6,8 +6,14 @@ import About from "../About/About";
 import styles from './Header.module.css'
 import MovieDetails from "../MovieDetails/MovieDetails";
 import { SearchInput,UserAvatar} from "../../components";
+import {useDispatch} from "react-redux";
+import { setMoviesSearch} from "../../redux/action-creators";
 
-const Header=({onSearchMovie})=>{
+const Header=()=>{
+   const dispatch=useDispatch()
+    const onSearchMovie= async (value)=>{
+         await dispatch(setMoviesSearch({query:value}))
+    }
   return(
       <div>
       <div className={styles.header}>

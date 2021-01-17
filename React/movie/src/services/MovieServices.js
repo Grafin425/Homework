@@ -2,6 +2,7 @@ import {AXIOS} from './axiosConfig'
 
 class MoviesService {
    async getMovies(params){
+       console.log(params);
        const {data}= await AXIOS.get('/discover/movie',{
             params
         })
