@@ -1,12 +1,11 @@
 import React from "react";
 import logo from '../../image/trim.svg'
-import SearchInput from "../../components/Input/SearchInput";
-import UserAvatar from "../../components/User/UserAvatar";
 import {Link, Route, Switch} from "react-router-dom";
 import Home from '../Home/Home';
 import About from "../About/About";
 import styles from './Header.module.css'
 import MovieDetails from "../MovieDetails/MovieDetails";
+import { SearchInput,UserAvatar} from "../../components";
 
 const Header=({onSearchMovie})=>{
   return(

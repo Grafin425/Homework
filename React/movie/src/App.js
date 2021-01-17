@@ -5,6 +5,7 @@ import {setMovies} from "./redux";
 import Header from "./conteiners/Header/Header";
 import styles from './index.css'
 import {searchService} from "./services";
+import {Footer} from "./conteiners/Footer";
 
 function App() {
     const onSearchMovie= async (value)=>{
@@ -23,6 +24,7 @@ function App() {
         <div className={styles.container}>
             <div className={styles.wrapper}>
                 <Header onSearchMovie={onSearchMovie}/>
+                <Footer/>
             </div>
         </div>
     );
