@@ -21,7 +21,6 @@ const Home = () => {
     const handlePageChange=(page)=>{
         dispatch(setMovies({page}))
     }
-
     return (
         <PaginationWrapper
             currentPage={page}
@@ -34,7 +33,7 @@ const Home = () => {
         >
         <div className={styles.listWrapper}>
             {
-                results && results.map(movie => <MovieItem item={movie} key={movie.id} onFilmClick={onFilmClick}/>)
+                movies && results.map(movie => <MovieItem item={movie} key={movie.id} onFilmClick={onFilmClick}/>)
 
             }
         </div>

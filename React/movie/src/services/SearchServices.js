@@ -1,9 +1,11 @@
 import {AXIOS} from './axiosConfig'
 class SearchServices {
-    async getMoviesBySearch(query){
-        console.log(query);
-        const {movies} = await AXIOS.get(`/search/movie?query=${query}`)
-        return movies
+    async getMoviesBySearch(params){
+        console.log(params);
+        const {data} = await AXIOS.get(`/search/movie`,{
+            params
+        })
+        return data
     }
 
 }
