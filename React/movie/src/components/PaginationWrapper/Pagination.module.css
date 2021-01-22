@@ -1,9 +1,16 @@
 .pagination{
     padding-bottom: 30px;
-    background: rgba(240, 239, 237, 1);
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.light{
+    background: rgba(240, 239, 237, 1);
+
+}
+.dark{
+    background: #222;
+    color: #fff
 }
 .btn{
     font-weight: 700;
@@ -28,6 +35,7 @@
     transform: none;
 }
 .btnCout{
+    outline: none;
     color: #7f94bc;
     border: none;
     font-size: 20px;

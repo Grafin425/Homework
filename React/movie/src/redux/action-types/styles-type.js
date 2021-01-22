@@ -1,0 +1,1 @@
+export const TOGGLE_MODE_STYLE='TOGGLE_MODE_STYLE'

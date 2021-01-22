@@ -1,9 +1,11 @@
 import React from 'react'
 import styles from './Item.module.css'
-import RatingItem from "./RatingItem";
+import {RatingItem} from "./RatingItem";
+import like from '../../image/like.svg'
+import likeBlack from '../../image/like.black.svg'
 
 
-const MovieItem = ({item,onFilmClick}) => {
+export const MovieItem = ({item,onFilmClick,onAddToWishList}) => {
     const {original_title, overview, backdrop_path,vote_average} = item
     const baseUrl = 'https://image.tmdb.org/t/p/w400/'
     return (
@@ -24,4 +26,3 @@ const MovieItem = ({item,onFilmClick}) => {
 
     )
 }
-export default MovieItem
