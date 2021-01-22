@@ -6,11 +6,20 @@
     align-items: center;
     justify-content: space-between;
     display: flex;
-    padding:40px;
+    padding: 0 50px;
+}
+.navLink{
+    text-transform:uppercase;
+    margin: 0 10px;
+    text-decoration: none;
+    color: silver;
+    justify-content: space-around;
+}
+.navLink:hover{
+    border-bottom: 2px solid #a28989;
 }
 
 .logo{
-    margin-left: 10px;
     display:flex;
 }
 .icon{

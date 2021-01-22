@@ -1,28 +1,35 @@
 import {useDispatch, useSelector} from "react-redux";
-import MovieItem from "../../components/Item/MovieItem";
+import {MovieItem, PaginationWrapper, SearchInput} from "../../components";
 import styles from './Home.module.css'
 import {useHistory} from "react-router-dom";
-import {PaginationWrapper} from "../../components/PaginationWrapper";
-import {setMovies} from "../../redux/action-creators";
+import {setMovies, setMoviesSearch} from "../../redux/action-creators";
+import React from "react";
+import dark from "../../styles/themes/dark";
+import light from "../../styles/themes/light";
 
 
-const Home = () => {
+export const Home = () => {
     const history = useHistory()
-    const {movies} = useSelector(({movies: {movies}}) => ({
-        movies
+    const {movies,checked} = useSelector(({movies: {movies},checked:{checked}}) => ({
+        movies,
+        checked,
     }))
-    const {results,page,total_pages,total_results} = movies
+    const dispatch=useDispatch()
+    const onSearchMovie= async (value)=>{
+        await dispatch(setMoviesSearch({query:value}))
+    }
+    const {results,page,total_pages} = movies
 
     const onFilmClick = (film) => {
         history.push(`/movie/${film.id}`)
     }
-    const dispatch = useDispatch();
 
     const handlePageChange=(page)=>{
         dispatch(setMovies({page}))
     }
     return (
         <PaginationWrapper
+checked={checked}
             currentPage={page}
             totalPage={total_pages}
             onPrevClick={handlePageChange}
@@ -31,13 +38,19 @@ const Home = () => {
             handleLastPage={handlePageChange}
 
         >
-        <div className={styles.listWrapper}>
+
+            <div className={styles.filter}>
+                <SearchInput onSearchMovie={onSearchMovie}/>
+
+            </div>
+
+            <div className={styles.listWrapper} >
             {
-                movies && results && results.map(movie => <MovieItem item={movie} key={movie.id} onFilmClick={onFilmClick}/>)
+                movies && results && results.map(movie => <MovieItem item={movie} key={movie.id} onFilmClick={onFilmClick} />)
 
             }
+
         </div>
         </PaginationWrapper>
     )
 }
-export default Home

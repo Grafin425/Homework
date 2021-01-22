@@ -1,6 +1,6 @@
 import React from "react";
 import styles from './Pagination.module.css'
-export const PaginationWrapper=({children,currentPage,totalPage,onPrevClick,onNextClick,handleLastPage,handleFirstPage})=>{
+export const PaginationWrapper=({children,currentPage,totalPage,onPrevClick,onNextClick,handleLastPage,handleFirstPage,checked})=>{
   const handleNextClick=()=>{
       if(currentPage+1<=totalPage){
           onNextClick && onNextClick(currentPage+1)
@@ -19,7 +19,7 @@ export const PaginationWrapper=({children,currentPage,totalPage,onPrevClick,onNe
       handleFirstPage && handleFirstPage(1)
     }
     return(
-      <div>
+      <div >
           {children}
 
           <div className={styles.pagination}>

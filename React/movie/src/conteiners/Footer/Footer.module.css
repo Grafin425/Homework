@@ -9,6 +9,11 @@
     padding-bottom: 30px;
 
 }
+
+.dark{
+    background: black;
+    color: #fff;
+}
 .footer a{
     font-size: 18px;
     color: #455370;
