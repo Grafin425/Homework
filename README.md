@@ -23,5 +23,7 @@
 * [React.NW-7](https://github.com/YaroslavYedyn/Homework/tree/master/React/homework-7)  (thunk,react-redux...)
 * [React.shooping-cart](https://github.com/YaroslavYedyn/Homework/tree/master/React/shooping-cart)  (React shooping-cart app )
 * [React.movies-app](https://github.com/YaroslavYedyn/Homework/tree/master/React/movie) (React project,site for watching movies)
-
+# Angular module
+* [Angular.NW-1](https://github.com/YaroslavYedyn/Homework/tree/master/Angular/hw-one)  (angular install,components)
+* [Angular.NW-2](https://github.com/YaroslavYedyn/Homework/tree/master/Angular/hw-second)  (services,models)
 
