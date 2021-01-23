@@ -46,7 +46,7 @@ checked={checked}
 
             <div className={styles.listWrapper} >
             {
-                movies && results && results.map(movie => <MovieItem item={movie} key={movie.id} onFilmClick={onFilmClick} />)
+                movies && results && results.map(movie => <MovieItem item={movie} key={movie.id} onFilmClick={onFilmClick} isClicked={true} />)
 
             }
 
