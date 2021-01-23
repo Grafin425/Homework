@@ -6,7 +6,7 @@ import {CarsComponent} from './cars/cars.component';
 import {CarComponent} from './car/car.component';
 import {RouterModule} from '@angular/router';
 import {HomeComponent} from './home/home.component';
-import {FullUserComponent} from './full-user/full-user.component';
+import {FullCarComponent} from './full-car/full-car.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +14,7 @@ import {FullUserComponent} from './full-user/full-user.component';
     CarsComponent,
     CarComponent,
     HomeComponent,
-    FullUserComponent
+    FullCarComponent
   ],
   imports: [
     BrowserModule,
@@ -23,7 +23,7 @@ import {FullUserComponent} from './full-user/full-user.component';
     },
       {
         path: 'link/cars', component: CarsComponent, children: [{
-          path: ':id', component: FullUserComponent
+          path: ':id', component: FullCarComponent
         }]
       }])
   ],
