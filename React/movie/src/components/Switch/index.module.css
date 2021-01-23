@@ -1,0 +1,7 @@
+.switchText{
+    margin-right: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
