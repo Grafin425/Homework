@@ -1,12 +1,12 @@
 import {AXIOS} from './axiosConfig'
-class SearchServices {
+class FilterServices {
     async getMoviesBySearch(params){
         const {data} = await AXIOS.get(`/search/movie`,{
-            params
+           params
         })
         return data
     }
 
 }
 
-export const searchService=new SearchServices();
+export const filterServices=new FilterServices();

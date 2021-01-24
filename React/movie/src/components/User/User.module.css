@@ -1,0 +1,29 @@
+.photo{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    border-radius: 10px;
+
+    overflow: hidden;
+
+
+}
+.photo img{
+    border-radius: 4px;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+
+}
+.auth{
+    height: 200px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+}
+.userInf{
+    margin-left: 20px;
+    margin-top: 10px;
+}

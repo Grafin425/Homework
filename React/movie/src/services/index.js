@@ -1,2 +1,2 @@
 export * from './MovieServices'
-export * from './SearchServices'
+export * from './FilterServices'
