@@ -1,9 +1,22 @@
 .search{
     width: 200px;
-    height: 30px;
+    height: 40px;
     border: none;
     outline: none;
     font-size:13px;
     color:grey;
 
+}
+.selectForm{
+
+    font-size: 18px;
+    font-weight: 500;
+    margin-right: 30px;
+}
+.select{
+    margin-left: 5px;
+    width: 80px;
+    height: 40px;
+    outline: none;
+    border: none;
 }

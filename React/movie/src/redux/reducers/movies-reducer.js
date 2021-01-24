@@ -1,4 +1,4 @@
-import {SET_MOVIES,SET_MOVIES_SEARCH} from "../action-types";
+import {SET_MOVIES, SET_MOVIES_SEARCH} from "../action-types";
 
 const initialState={
     movies:[]

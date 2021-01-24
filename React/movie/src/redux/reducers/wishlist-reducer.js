@@ -4,7 +4,6 @@ const initialState = {
     wishlist: [],
 
 }
-console.log(localStorage.getItem('wishlist'))
 
 
 const reducer = (state=initialState, action) => {
