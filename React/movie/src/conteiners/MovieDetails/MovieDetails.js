@@ -4,7 +4,7 @@ import {moviesService} from "../../services";
 import styles from './MovieDetails.module.css'
 import {useDispatch, useSelector} from "react-redux";
 import {toggleItemInWishList} from "../../redux";
-import {FollowIcon} from "../../components";
+import {ButtonCustom} from "../../components";
 
 export const MovieDetails = () => {
     const baseUrl = 'https://image.tmdb.org/t/p/w400/'
@@ -59,20 +59,15 @@ export const MovieDetails = () => {
                         production_companies.map(({name}, index) => <span key={index}
                                                                           className={styles.languages}>{name},</span>)
                     }</p>
-                    <FollowIcon
+                </div>
+                <div className={styles.lBottom}>
+                    <ButtonCustom
                         isAddedToWishlist={!!wishlist.find(({id}) => id === movie.id)}
+                        nameOne='follow'
+                        nameSecond='dont like it'
                         onAddToWishList={onAddToWishList}
                         movie={movie}
                     />
-
-                </div>
-                <div className={styles.lBottom}>
-                    <button className={styles.button}>
-                        <span><a href={homepage}>ДИВИТИСЯ</a></span>
-                    </button>
-                    <button className={styles.button}>
-                        <span>ТРЕЙЛЕР</span>
-                    </button>
                 </div>
             </div>
             <div className={styles.right}>

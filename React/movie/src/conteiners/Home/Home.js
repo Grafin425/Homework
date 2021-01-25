@@ -2,9 +2,8 @@ import {useDispatch, useSelector} from "react-redux";
 import {MovieItem, PaginationWrapper, SearchInput} from "../../components";
 import styles from './Home.module.css'
 import {useHistory} from "react-router-dom";
-import {setMovies, setMoviesByGenres, setMoviesSearch, setMoviesYear} from "../../redux/action-creators";
+import {setMovies, setMoviesSearch} from "../../redux/action-creators";
 import React from "react";
-import {InputSelect} from "../../components/Input/InputSelect";
 
 
 export const Home = () => {
@@ -35,20 +34,16 @@ export const Home = () => {
             onNextClick={handlePageChange}
             handleFirstPage={handlePageChange}
             handleLastPage={handlePageChange}
-
         >
-
             <div className={styles.filter}>
                 <SearchInput onSearchMovie={onSearchMovie}/>
             </div>
-
             <div className={styles.listWrapper}>
                 {
                     movies && results && results.map(movie => <MovieItem item={movie} key={movie.id}
                                                                          onFilmClick={onFilmClick} isClicked={true}/>)
 
                 }
-
             </div>
         </PaginationWrapper>
     )
