@@ -1,14 +1,12 @@
 import React from "react";
 import logo from '../../image/trim.svg'
 import {Link, Route, Switch} from "react-router-dom";
-import {Home, Like, MovieDetails,Auth} from '../../conteiners';
+import {Auth, Home, Like, MovieDetails} from '../../conteiners';
 import {links} from '../../constants'
 import styles from './Header.module.css'
 import {Switched} from "../../components";
-import {useAuth0} from "@auth0/auth0-react";
 
 export const Header=({toggleTheme})=>{
-    const {isAuthenticated} = useAuth0();
 
     return(
       <header>
@@ -33,9 +31,7 @@ export const Header=({toggleTheme})=>{
                   )
               })
           }
-
           <Switched toggleTheme={toggleTheme}  />
-
       </div>
           <main>
           <Switch>

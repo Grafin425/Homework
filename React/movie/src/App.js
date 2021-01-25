@@ -16,8 +16,6 @@ function App() {
     };
     const [theme, setTheme] = usePersistedState('theme', light);
 
-
-
     const dispatch = useDispatch();
     useEffect(() => {
         dispatch(setMovies())
