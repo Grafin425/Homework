@@ -6,8 +6,9 @@ import {store} from "./redux";
 import {BrowserRouter as Router} from "react-router-dom";
 import {Auth0Provider} from '@auth0/auth0-react'
 
-const domain = 'dev-wobdetl4.us.auth0.com';
-const clientId = 'KsQjHsBFxNUGW01sZ0FMl62VCGSFbwO2';
+const domain = process.env.React_App_Auth0_Domain;
+const clientId = process.env.React_App_Auth0_Client_Id;
+
 
 ReactDOM.render(
     <Auth0Provider
