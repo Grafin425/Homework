@@ -4,6 +4,7 @@ import styles from './Home.module.css'
 import {useHistory} from "react-router-dom";
 import {setMovies, setMoviesSearch} from "../../redux/action-creators";
 import React from "react";
+import CircularProgress from "@material-ui/core/CircularProgress";
 
 
 export const Home = () => {
@@ -25,6 +26,13 @@ export const Home = () => {
     const handlePageChange = (page) => {
         dispatch(setMovies({page}))
     }
+
+    if(movies===null) {
+        return <div className={styles.listWrapper}> <CircularProgress /></div>
+
+    }
+
+
     return (
         <PaginationWrapper
             checked={checked}
@@ -40,8 +48,12 @@ export const Home = () => {
             </div>
             <div className={styles.listWrapper}>
                 {
-                    movies && results && results.map(movie => <MovieItem item={movie} key={movie.id}
-                                                                         onFilmClick={onFilmClick} isClicked={true}/>)
+                  movies &&  results&& results.map(movie => <MovieItem
+                        item={movie}
+                        key={movie.id}
+                        onFilmClick={onFilmClick}
+                        isClicked={true}/>
+                  )
 
                 }
             </div>
