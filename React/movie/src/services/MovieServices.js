@@ -1,15 +1,30 @@
 import {AXIOS} from './axiosConfig'
 
 class MoviesService {
+
    async getMovies(params){
-       const {data}= await AXIOS.get('/discover/movie',{
-            params
-        })
-       return data
+
+       try {
+           const {data}= await AXIOS.get('/discover/movie',{
+               params
+           })
+           return data
+
+       } catch (e){
+
+           console.error(e)
+       }
+
     }
     async getMovieById(movieId){
-       const {data}=await AXIOS.get(`/movie/${movieId}`)
-        return data
+       try {
+           const {data}=await AXIOS.get(`/movie/${movieId}`)
+           return data
+
+       }catch (e){
+           console.error(e)
+       }
+
     }
 }
 

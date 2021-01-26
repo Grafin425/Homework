@@ -5,6 +5,9 @@ import styles from './MovieDetails.module.css'
 import {useDispatch, useSelector} from "react-redux";
 import {toggleItemInWishList} from "../../redux";
 import {ButtonCustom} from "../../components";
+import loading from './MovieDetails.module.css'
+import CircularProgress from '@material-ui/core/CircularProgress';
+
 
 export const MovieDetails = () => {
     const baseUrl = 'https://image.tmdb.org/t/p/w400/'
@@ -38,9 +41,9 @@ export const MovieDetails = () => {
     }
 
     if (isLoading || !movie || isLoading === null) {
-        return <h1>loading....</h1>
+        return <div className={styles.loading}> <CircularProgress /></div>
     }
-    const {poster_path, original_title, genres, release_date, vote_average, spoken_languages, production_companies, homepage} = movie
+    const {poster_path, original_title, genres, release_date, vote_average, spoken_languages, production_companies} = movie
     return (
         <div className={styles.page}>
             <div className={styles.left}>
