@@ -1,0 +1,13 @@
+<form  [formGroup]="form" >
+  <div>
+    <input formControlName="name">
+<p *ngIf="!!form.controls.name?.errors?.minlength">min length - 10 </p>
+    <p *ngIf="form.controls.name?.errors?.required">this form required</p>
+  </div>
+  <div>
+    <input  formControlName="age" name>
+
+  </div>
+  <button>save</button>
+</form>
+{{form.controls.name.value}}
