@@ -29,6 +29,9 @@
 * [Angular.NW-3](https://github.com/YaroslavYedyn/Homework/tree/master/Angular/hw-third)  (router)
 * [Angular.NW-4](https://github.com/YaroslavYedyn/Homework/tree/master/Angular/nw-fourth)  (resolve)
 * [Angular.NW-5](https://github.com/YaroslavYedyn/Homework/tree/master/Angular/hw-fifth)  (form)
+* [Angular.NW-6](https://github.com/YaroslavYedyn/Homework/tree/master/Angular/hw-sixth)  (loadChildren)
+
+
 
 
 
