@@ -1,0 +1,42 @@
+.wrapper{
+  width: 300px;
+  height: 400px;
+  background: #eaeaea;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 8px;
+  align-items: center;
+}
+.wrapper:hover{
+  border: 1px solid #9b9b9b;
+}
+.name,.age{
+  width: 250px;
+  height: 80px;
+  margin: 5px;
+}
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.title{
+  font-size: 20px;
+  font-weight: 300;
+  color: #454545;
+  text-transform: uppercase;
+  padding: 5px;
+}
+input{
+  width: 250px;
+  height: 30px;
+}
+button{
+  margin-top: 50px;
+  width: 80px;
+  height: 30px;
+  text-transform: uppercase;
+}
