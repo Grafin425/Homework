@@ -1,13 +1,16 @@
-<form  [formGroup]="form" >
-  <div>
-    <input formControlName="name">
-<p *ngIf="!!form.controls.name?.errors?.minlength">min length - 10 </p>
+<form [formGroup]="form" [classList]="['wrapper']" (ngSubmit)="Submit()">
+  <label [classList]="['title']">please fill out the form</label>
+  <div [classList]="['name']">
+    <label >enter name</label>
+    <input [formControl]="name">
+    <p *ngIf="!!form.controls.name?.errors?.minlength">min length - 3 </p>
     <p *ngIf="form.controls.name?.errors?.required">this form required</p>
   </div>
-  <div>
-    <input  formControlName="age" name>
+  <div [classList]="['age']">
+    <label >enter age</label>
+    <input  [formControl]="age"  type="number">
 
   </div>
-  <button>save</button>
+  <button [disabled]="form.invalid">save</button>
 </form>
 {{form.controls.name.value}}

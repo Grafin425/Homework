@@ -1,6 +1,6 @@
-import {Component} from '@angular/core';
+import {Component, Input} from '@angular/core';
 import {FormControl, FormGroup, Validators} from '@angular/forms';
-import validate = WebAssembly.validate;
+import {Users} from './db/Users';
 
 @Component({
   selector: 'app-root',
@@ -8,13 +8,18 @@ import validate = WebAssembly.validate;
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  const;
+  @Input()
+  users = Users;
+
+  name = new FormControl('', [Validators.required, Validators.minLength(3)]);
+  age = new FormControl('', Validators.required);
   form = new FormGroup({
-    name: new FormControl('', [Validators.required, Validators.minLength(10)]),
-    age: new FormControl('', Validators.required)
+    name: this.name,
+    age: this.age
   });
 
   Submit(): any {
-
+    this.users.push({name: this.name.value, age: this.age.value});
+    console.log(this.users);
   }
 }
