@@ -18,7 +18,7 @@ export class AppComponent {
     age: this.age
   });
 
-  Submit(): any {
+  submit(): void {
     this.users.push({name: this.name.value, age: this.age.value});
     console.log(this.users);
   }
