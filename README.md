@@ -30,7 +30,7 @@
 * [Angular.NW-4](https://github.com/YaroslavYedyn/Homework/tree/master/Angular/nw-fourth)  (resolve)
 * [Angular.NW-5](https://github.com/YaroslavYedyn/Homework/tree/master/Angular/hw-fifth)  (form)
 * [Angular.NW-6](https://github.com/YaroslavYedyn/Homework/tree/master/Angular/hw-sixth)  (loadChildren)
-* [Angular.NW-6](https://github.com/YaroslavYedyn/Homework/tree/master/Angular/hw-seventh)  (derective)
+* [Angular.NW-7](https://github.com/YaroslavYedyn/Homework/tree/master/Angular/hw-seventh)  (derective)
 
 
 
