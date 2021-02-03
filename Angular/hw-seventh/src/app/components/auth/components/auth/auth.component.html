@@ -1,5 +1,5 @@
 <form [classList]="['form']" ngForm="form" (ngSubmit)="auth()">
-  <input [formControl]="username">
-  <input [formControl]="password">
+  <input placeholder="admin" [formControl]="username">
+  <input placeholder="123456" [formControl]="password">
   <button >auth</button>
 </form>
