@@ -1,7 +1,7 @@
 import {Component, OnInit} from '@angular/core';
 import {FormControl, FormGroup} from '@angular/forms';
-import {Router} from '@angular/router';
-import {admin} from '../../../db'
+import {CanActivate, Router, RouterLinkActive} from '@angular/router';
+import {admin} from '../../../db';
 
 @Component({
   selector: 'app-auth',
